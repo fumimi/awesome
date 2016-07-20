@@ -1,0 +1,7 @@
+git commit -am "A first commit"
+
+git push origin master
+
+git status
+
+git add hello.html
