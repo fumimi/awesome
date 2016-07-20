@@ -1,7 +1,10 @@
-git commit -am "A first commit"
+git commit -am "github setup"
 
 git push origin master
 
 git status
 
-git add hello.html
+git add ファイル名/ディレクトリ名
+
+
+aaa

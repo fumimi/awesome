@@ -22,6 +22,7 @@
 
   echo $_SESSION['username'];
 
+  session_start();
   ?>
 </body>
 </html>
