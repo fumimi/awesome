@@ -4,10 +4,25 @@
 <title>hello world</title>
 </head>
 <body>
- <?php echo "hello world 01"; ?>
- <?php echo "hello world 02"; ?>
- <?php echo "hello world 03"; ?>
- <?php echo "hello world 04"; ?>
+  <?php
 
+  // session
+  // サーバー側
+  // 大きなデータ
+  // 改ざんされない
+  // 中身が見られない
+
+  session_start();
+
+  // $_SESSION['username'] = "taguchi";
+
+  // echo $_SESSION['username'];
+
+  // unset($_SESSION['username']);
+
+  echo $_SESSION['username'];
+
+  ?>
+git remote add origin https://github.com/fumimi/awesome.git
 </body>
 </html>
