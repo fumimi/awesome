@@ -23,6 +23,7 @@
   echo $_SESSION['username'];
 
   ?>
+git commit -am "A first commit"
 git remote add origin https://github.com/fumimi/awesome.git
 </body>
 </html>
